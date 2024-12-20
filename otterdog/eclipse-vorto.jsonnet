@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-vorto') {
+orgs.newOrg('iot.vorto', 'eclipse-vorto') {
   settings+: {
     description: "",
     name: "Eclipse Vorto project",
