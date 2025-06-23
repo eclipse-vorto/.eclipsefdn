@@ -14,10 +14,8 @@ orgs.newOrg('iot.vorto', 'eclipse-vorto') {
       allow_merge_commit: true,
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
         "python",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "development",
@@ -70,10 +68,8 @@ orgs.newOrg('iot.vorto', 'eclipse-vorto') {
       allow_merge_commit: true,
       allow_update_branch: false,
       code_scanning_default_languages+: [
-        "javascript",
         "javascript-typescript",
         "python",
-        "typescript"
       ],
       code_scanning_default_setup_enabled: true,
       default_branch: "master",
